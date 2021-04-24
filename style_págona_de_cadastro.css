@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*grid settings*/
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*header settings*/
+
+header{
+    background-color: black;
+}
+
+.container_header{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_menu i{
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
+.container_header img{
+    width: 406px;
+}
+
+nav{
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: 'Roboto', cursive;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: black;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.container_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links_container {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.links_container span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.links_container li {
+    color: white;
+}
+
+.links_container a {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.folow_us .clan {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.folow_us .folow {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.folow_us img {
+    height: 40px;
+    width: 40px;
+}
+
+.singup {
+    display: flex;
+}
+
+.singup input {
+    height: 40px;
+    width: 220px;
+}
+
+.singup a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #016AB7;
+    height: 40px;
+    width: 126px;
+}
+
+.singup a span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
